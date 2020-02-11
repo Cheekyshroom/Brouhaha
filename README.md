@@ -11,8 +11,7 @@ make
 ```
 (specifying your install directory)
 
-then copy a hackernews url so that "pbpaste" can use it.
-And run
+then copy a hackernews url so that "pbpaste" can use it, and run
 ```
 brouhaha [speaking rate in WPM]
 ```
