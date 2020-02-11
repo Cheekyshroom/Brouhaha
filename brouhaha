@@ -8,7 +8,8 @@ fi
 say_cancellable() {
   say "$@" &
   pid=$!
-  trap "kill -9 $pid" 1 3 9 2 15 
+  trap "kill -9 $pid" 1 9 2 15
+  trap "exit" 3
   while true; do
     finished=$(ps -p $pid | wc -l)
     if [[ "$finished" -eq 1 ]]; then
