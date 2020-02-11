@@ -14,7 +14,7 @@ make
 # Copy a hackernews url so that "pbpaste" can use it.
 And run
 ```
-brouhaha
+brouhaha [speaking rate in WPM]
 ```
 with open ears.
 
