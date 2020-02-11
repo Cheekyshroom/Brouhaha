@@ -11,7 +11,7 @@ make
 ```
 (specifying your install directory)
 
-# Copy a hackernews url so that "pbpaste" can use it.
+then copy a hackernews url so that "pbpaste" can use it.
 And run
 ```
 brouhaha [speaking rate in WPM]
@@ -19,5 +19,5 @@ brouhaha [speaking rate in WPM]
 with open ears.
 
 # Early termination
-If you grow tired of the brouhaha, ^C will skip the current post.
-If you're really really tired of it, ^\ will kill the whole conversation.
+If you grow tired of the brouhaha, `^C` will skip the current post.
+If you're really really tired of it, `^\` will kill the whole conversation.
